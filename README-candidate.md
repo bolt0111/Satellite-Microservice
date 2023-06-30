@@ -11,18 +11,23 @@ This add-on exercise implements an additional microservice using Python, Flask/F
 
 Follow these steps to set up and run the Satellite Cities Python Microservice:
 
-1. Navigate the folder:
+1. Clone the repository
+
+   ```shell
+   git clone https://github.com/secret-superstar922/Satellite-Microservice.git`
+
+3. Navigate the folder:
 
    ```shell
    cd Satellites-Microservice
 
-2. Start the microservice:
+4. Start the microservice:
 
    ```shell
    sudo docker build -t satelliteapi .
    sudo docker run -p 5000:5000 --name satelliteapi satelliteapi:1.0
 
-3. The microservice will be available at http://localhost:5000.
+5. The microservice will be available at http://localhost:5000.
 
 Or
 
